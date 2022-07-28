@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
        binding.btnSetValue.setOnClickListener(){
            student.age=28
+           student.programme="REI"
          binding.apply{
              invalidateAll() //call to refresh
          }
